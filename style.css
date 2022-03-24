@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666;
+} 
+*{
+    box-sizing: border-box;
+}  
+.caja {
+    position: relative;
+    border-radius: 25px;
+    background-color:#614141;
+    padding: 20px 0 30px 0;
+} 
+input,
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px 0;
+    opacity: 0.8;
+    display: inline-block;
+    font-size:22px;
+    line-height: 30px;
+    text-decoration: none; 
+} 
+input:hover,
+    .btn:hover {
+        opacity:0.9;
+}
+.fb {
+    background-color: #3B5998;
+    color: white;
+}
+.fb:hover {
+    background-color: #121e38;
+    color: white;
+}
+.twitter {
+    background-color: #34709e;
+    color: white;
+} 
+.twitter:hover {
+    background-color: #025892;
+    color: white;
+}
+.google {
+    background-color: #ac6157;
+    color: white;
+}
+.google:hover {
+    background-color: #b94334;
+    color: white;
+}
+input[type=submit] {
+    background-color: #068d5b;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #1c6320;
+}
+.col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top:15px;
+    
+}
+
+.fila:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 4px solid rgb(238, 222, 222);
+    height:195px;
+}
+.medio-texto {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+.hide-md-lg {
+    display: none;
+}
+/* bottom caja */
+.bottom-caja {
+    text-align: center;
+    background-color: rgb(5, 167, 13);
+    border-radius: 0px 40px 40px 40px;
+}
+.bottom-caja:hover{
+    color: #b0e45c;
+}
+@media screen and (max-width: 650px) {
+    .col {
+    width: 100%;
+    margin-top: 0;
+}
+.vl {
+    display: none;
+}
+.hide-md-lg {
+    display: block;
+    text-align: center;
+}
+}
