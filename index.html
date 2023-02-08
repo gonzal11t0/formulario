@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+        <div class="header">
+            <h2>Contactame</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nombre</label>
+                <input  name="username" type="text" placeholder="Carlos" id="nombre" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="secondName">Apellido</label>
+                <input name="secondName"  type="text" placeholder="Rodriguez" id="apellido" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input name="email"  type="email" placeholder="abcdefghij@email.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input name="password"  type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Repetir password</label>
+                <input name="password2"  type="password" placeholder="Repetir password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
